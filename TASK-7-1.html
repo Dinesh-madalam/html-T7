@@ -1,0 +1,45 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-7.1 Registration</title>
+</head>
+<body><h3>User Registration</h3>
+      <!-- in pattern [this brace indicates required nums] {this is used to give range} -->
+      <form ><fieldset><legend>Sign in</legend>
+        <label for="fname">Enter your First Name:</label>
+        <input type="text" id="fname"  name="fname" placeholder="First name"><br><br>
+
+        <label for="lname">Enter your Last Name:</label>
+        <input type="text" id="lname"  name="lname" placeholder="Last name"><br><br>
+
+        <label for="phn">Enter Phone Number: </label>
+        <input type="tel" id="phn" name="phn" placeholder="Phone Number" pattern="[0-9]{10}"  enabled><br><br>
+
+        <label for="email">Enter Email: </label>
+        <input type="email" id="email" name="email" placeholder="@email" ><br><br>
+
+        <label for="age">Age: </label>
+        <input type="text" id="age" name="age" placeholder="Age"/><br><br>
+
+        <label for="gender">Gender :</label>
+        <input type="radio" id="gender" name="gender" value="male">male
+        <input type="radio" id="gender" name="gender" value="Female">Female<br>
+
+
+        <label for="pwd">Enter Password: </label>
+        <input type="password" id="pwd" name="pwd" placeholder="Password"/><br><br>
+           <!-- <label for="submit"></label> -->
+
+        <input type="submit"   formaction="https://www.zomato.com/ncr/golf-course-order-online" ><br>
+        already have account ?
+        <button type="submit" formaction="./TASK-7.html">back to login
+        </button>
+
+
+    </fieldset>
+    </form>
+    <!-- this file links to TASK-7 , TASK-7-1 >> Zomato Web site -->
+</body>
+</html>
